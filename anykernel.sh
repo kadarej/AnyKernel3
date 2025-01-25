@@ -1,7 +1,7 @@
 # AnyKernel3 Ramdisk Mod Script
 # osm0sis @ xda-developers
 properties() { '
-kernel.string=Mahiro kernel by utziacre
+kernel.string=paper-amktiao
 device.name1=nabu
 do.devicecheck=1
 do.modules=0
@@ -22,7 +22,6 @@ fi;
 # patch_cmdline firmware_class.path firmware_class.path=/vendor/firmware_mnt/image
 # patch_cmdline androidboot.selinux androidboot.selinux=permissive
 # patch_cmdline ramoops_memreserve ramoops_memreserve=8M
-patch_cmdline androidboot.force_normal_boot=1
 	write_boot;
 
 ## vendor_boot shell variables
